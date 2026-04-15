@@ -12,3 +12,6 @@ sudo apt-get install build-essential
 brew install gcc
 
 curl -fsSL https://openclaw.ai/install.sh | bash
+
+openclaw security audit --deep                                                            │
+openclaw security audit --fix   
