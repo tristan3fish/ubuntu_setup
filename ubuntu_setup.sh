@@ -11,6 +11,12 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
 sudo apt-get install build-essential
 brew install gcc
 
+npm install -g @anthropic-ai/claude-code
+
+brew install --cask intellij-idea-ce
+brew install --cask pycharm-ce
+brew install --cask visual-studio-code
+
 curl -fsSL https://openclaw.ai/install.sh | bash
 
 openclaw security audit --deep                                                            │
